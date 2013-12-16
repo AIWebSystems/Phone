@@ -22,7 +22,7 @@ class PhoneNumber extends AbstractFieldType
 	 * The column type to use
 	 * @var string
 	 */
-	public $db_col_type = 'varchar';
+	public $db_col_type = 'string';
 
 	/**
 	 * Active type version
