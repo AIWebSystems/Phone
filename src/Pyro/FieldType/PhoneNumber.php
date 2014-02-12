@@ -1,6 +1,6 @@
 <?php namespace Pyro\FieldType;
 
-use Pyro\Module\Streams_core\AbstractFieldType;
+use Pyro\Module\Streams\FieldType\FieldTypeAbstract;
 
 /**
  * Phone Number Field Type
@@ -10,7 +10,7 @@ use Pyro\Module\Streams_core\AbstractFieldType;
  * @license        MIT
  * @link        http://aiwebsystems.com/
  */
-class PhoneNumber extends AbstractFieldType
+class PhoneNumber extends FieldTypeAbstract
 {
     /**
      * Slug
