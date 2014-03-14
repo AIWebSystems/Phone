@@ -1,4 +1,2 @@
-Phone-Number
+Phone
 ============
-
-Capture phone numbers.
