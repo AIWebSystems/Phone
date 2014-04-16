@@ -965,34 +965,4 @@ class Phone extends FieldTypeAbstract
 
         return null;
     }
-
-    /**
-     * Button: Call-to
-     *
-     * @param null $phone
-     * @return string
-     */
-    public function buttonCallTo($phone = null)
-    {
-        if (!$phone) {
-            $phone = $this->value;
-        }
-
-        return '<a href="callto:' . $phone . '" class="m-l btn btn-xs btn-default"><i class="fa fa-phone"></i></a> ';
-    }
-
-    /**
-     * Button: XMPP
-     *
-     * @param null $phone
-     * @return string
-     */
-    public function buttonXmpp($phone = null)
-    {
-        if (!$phone) {
-            $phone = $this->value;
-        }
-
-        return '<a href="xmpp:' . $phone . '" class="m-l btn btn-xs btn-default"><i class="fa fa-comment"></i></a> ';
-    }
 }
